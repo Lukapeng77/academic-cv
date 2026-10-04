@@ -1,0 +1,139 @@
+/* Resume skills: stack categories and present each skill as a readable row. */
+.resume-skills-rows .grid {
+  grid-template-columns: minmax(0, 1fr) !important;
+  max-width: 52rem;
+  gap: 1.25rem;
+}
+
+.resume-skills-rows .grid > .w-full {
+  overflow: hidden;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 1rem;
+  background: rgb(255 255 255 / 0.82);
+  box-shadow: 0 10px 30px rgb(15 23 42 / 0.06);
+}
+
+.resume-skills-rows .grid > .w-full > .mb-5 {
+  margin-bottom: 0.5rem;
+  color: rgb(15 23 42);
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.resume-skills-rows .skills-content {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  margin: 0;
+  padding: 0.65rem 0;
+  border-top: 1px solid rgb(226 232 240);
+}
+
+.resume-skills-rows .skills-name {
+  margin: 0;
+  color: rgb(51 65 85);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+/* Co-curricular activities: group each role, date, and achievement list. */
+.resume-activities .prose {
+  width: 100%;
+  max-width: 52rem;
+}
+
+.resume-activities .prose h3 {
+  margin: 1.25rem 0 0;
+  padding: 1.15rem 1.35rem 0.4rem;
+  border: 1px solid rgb(226 232 240);
+  border-bottom: 0;
+  border-radius: 1rem 1rem 0 0;
+  background: linear-gradient(135deg, rgb(248 250 252), rgb(241 245 249));
+  color: rgb(15 23 42);
+  font-size: 1.15rem;
+  line-height: 1.45;
+}
+
+.resume-activities .prose h3:first-child {
+  margin-top: 0;
+}
+
+.resume-activities .prose h3 + p {
+  margin: 0;
+  padding: 0.2rem 1.35rem 0.8rem;
+  border-right: 1px solid rgb(226 232 240);
+  border-left: 1px solid rgb(226 232 240);
+  background: rgb(248 250 252);
+  color: rgb(71 85 105);
+  font-size: 0.9rem;
+}
+
+.resume-activities .prose h3 + p + ul {
+  margin: 0 0 1.25rem;
+  padding: 0.65rem 1.35rem 1.2rem 2.75rem;
+  border: 1px solid rgb(226 232 240);
+  border-top: 0;
+  border-radius: 0 0 1rem 1rem;
+  background: rgb(255 255 255 / 0.82);
+  box-shadow: 0 10px 30px rgb(15 23 42 / 0.06);
+}
+
+.resume-activities .prose li {
+  margin: 0.45rem 0;
+  color: rgb(51 65 85);
+  line-height: 1.65;
+}
+
+.dark .resume-skills-rows .grid > .w-full,
+.dark .resume-activities .prose h3 + p + ul {
+  border-color: rgb(255 255 255 / 0.1);
+  background: rgb(255 255 255 / 0.035);
+  box-shadow: none;
+}
+
+.dark .resume-skills-rows .grid > .w-full > .mb-5,
+.dark .resume-activities .prose h3 {
+  color: rgb(248 250 252);
+}
+
+.dark .resume-skills-rows .skills-content {
+  border-color: rgb(255 255 255 / 0.1);
+}
+
+.dark .resume-skills-rows .skills-name,
+.dark .resume-activities .prose li {
+  color: rgb(203 213 225);
+}
+
+.dark .resume-activities .prose h3 {
+  border-color: rgb(255 255 255 / 0.1);
+  background: linear-gradient(135deg, rgb(30 41 59), rgb(15 23 42));
+}
+
+.dark .resume-activities .prose h3 + p {
+  border-color: rgb(255 255 255 / 0.1);
+  background: rgb(30 41 59);
+  color: rgb(148 163 184);
+}
+
+@media (max-width: 640px) {
+  .resume-skills-rows .grid > .w-full {
+    padding: 1rem 1.1rem;
+  }
+
+  .resume-activities .prose h3 {
+    padding: 1rem 1.1rem 0.35rem;
+  }
+
+  .resume-activities .prose h3 + p {
+    padding: 0.2rem 1.1rem 0.7rem;
+  }
+
+  .resume-activities .prose h3 + p + ul {
+    padding: 0.6rem 1.1rem 1rem 2.35rem;
+  }
+}

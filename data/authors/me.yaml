@@ -7,7 +7,7 @@ name:
   family: Peng
 role: Undergraduate Student in Computer Engineering
 bio: |
-  I am an undergraduate Computer Engineering student at the National University of Singapore, pursuing a second major in Systems Engineering, a minor in Artificial Intelligence, and a specialization in the Internet of Things.
+  I am an undergraduate Computer Engineering student at the National University of Singapore, pursuing a minor in Artificial Intelligence, and a specialization in the Internet of Things.
 
 affiliations:
   - name: National University of Singapore
@@ -27,10 +27,8 @@ education:
     start: 2023-08-01
     end: 2027-08-31
     summary: |
-      - Second Major in Systems Engineering
       - Minor in Artificial Intelligence
       - Specialization in the Internet of Things
-      - NUS Science & Technology Scholarship, August 2023 - August 2027
   - degree: Honor High School Diploma
     institution: Furen International School
     start: 2021-09-01
@@ -86,11 +84,3 @@ skills:
       - label: Microsoft PowerPoint
       - label: Google Analytics for Beginners and Advanced
       - label: TikTok Tech Immersion Program
-
-languages:
-  - name: Mandarin
-    level: 5
-    label: Excellent
-  - name: English
-    level: 4
-    label: Proficient

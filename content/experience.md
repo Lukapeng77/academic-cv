@@ -18,7 +18,8 @@ sections:
       title: Skills
       username: me
     design:
-      columns: 3
+      columns: 1
+      css_class: resume-skills-rows
   - block: markdown
     content:
       title: Co-curricular Activities
@@ -38,6 +39,7 @@ sections:
         - Shared personal insights and curriculum knowledge to promote NUS Engineering-related programs.
     design:
       columns: '1'
+      css_class: resume-activities
   - block: resume-languages
     content:
       title: Languages
