@@ -5,110 +5,92 @@ name:
   display: Peng Ziyi
   given: Ziyi
   family: Peng
-  alternate: ''  
-  pronunciation: ''  
-  pronouns: he/him
-postnominals:
-  - B.Eng.
-status:
-  icon: "☕️"
 role: Undergraduate Student in Computer Engineering
 bio: |
-  Peng Ziyi is an Undergraduate Student in Computer Engineering at NUS, with a Minor in Artificial Intelligence, specializing in IoT. 
-  I'm passionate about exploring the intersection of technology and society, and is particularly interested in the HCI and AI for healthcare andsocial good domains. 
-  In my free time, I enjoy hiking, playing badminton and basketball.
+  I am an undergraduate Computer Engineering student at the National University of Singapore, pursuing a second major in Systems Engineering, a minor in Artificial Intelligence, and a specialization in the Internet of Things.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: National University of Singapore
+    url: https://www.nus.edu.sg/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: mailto:ziyi.peng@u.nus.edu
+    label: Email me
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+    url: https://www.linkedin.com/in/ziyi-peng-luka0805
+    label: LinkedIn
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Bachelor of Engineering in Computer Engineering
+    institution: National University of Singapore
+    start: 2023-08-01
+    end: 2027-08-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      - Second Major in Systems Engineering
+      - Minor in Artificial Intelligence
+      - Specialization in the Internet of Things
+      - NUS Science & Technology Scholarship, August 2023 - August 2027
+  - degree: Honor High School Diploma
+    institution: Furen International School
+    start: 2021-09-01
+    end: 2022-10-31
+    summary: |
+      - A-Level overall academic grade: 4A* and 1A
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: IT Operations Intern
+    org: Foundation Healthcare
+    start: 2026-06-01
+    end: 2026-08-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Addressed fragmented healthcare data across multiple platforms by building backend server solutions and managing database architecture to aggregate and process data within a unified workflow.
+      - Improved the handling of complex healthcare datasets across 15 clinics by designing a data pipeline that compressed and standardized data while preserving integrity and minimizing semantic loss.
+      - Translated operational requirements into reliable software applications by developing features and conducting systematic performance, functional, and quality-assurance testing.
+      - Investigated technical issues identified through user feedback and QA testing, diagnosed their root causes, and implemented improvements that strengthened system reliability and user experience.
+  - role: AI Software Development Intern
+    org: Singapore General Hospital
+    start: 2025-06-01
+    end: 2025-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      **RAG in Excel Project**
+
+      - Developed a Retrieval-Augmented Generation (RAG) question-answering system integrated with Excel using VBA, enabling efficient data querying and dynamic answer generation.
+      - Implemented embedding, semantic chunking, and reranking techniques to improve structured-data retrieval accuracy and speed.
+      - Supported customizable system prompts for different use cases and batch-query functionality.
+
+      **START QA Chatbot Project**
+
+      - Designed interactive front-end interfaces with Streamlit to improve engagement and usability.
+      - Managed the full software lifecycle, from initial concept and backend data processing to frontend visualization and deployment.
+      - Conducted systematic testing and debugging to improve performance, accuracy, and reliability.
 
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
+      - label: C
+      - label: Java
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: JavaScript
+  - name: AI and Full-Stack Development
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: RAG Pipeline Implementation
+      - label: ReactJS
+      - label: HTML
+      - label: NodeJS
+      - label: MongoDB
+  - name: Productivity Tools and Certifications
+    items:
+      - label: Microsoft Word
+      - label: Microsoft Excel
+      - label: Microsoft PowerPoint
+      - label: Google Analytics for Beginners and Advanced
+      - label: TikTok Tech Immersion Program
 
 languages:
-  - name: English
+  - name: Mandarin
     level: 5
-    label: Native
-  - name: Spanish
+    label: Excellent
+  - name: English
     level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+    label: Proficient
