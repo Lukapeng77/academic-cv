@@ -85,8 +85,8 @@ skills:
       - label: Google Analytics for Beginners and Advanced
       - label: TikTok Tech Immersion Program
 
-Languages:
+languages:
   - name: English
-    proficiency: Professional
+    level: Professional
   - name: Mandarin
-    proficiency: Native
+    level: Native
