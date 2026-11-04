@@ -84,3 +84,9 @@ skills:
       - label: Microsoft PowerPoint
       - label: Google Analytics for Beginners and Advanced
       - label: TikTok Tech Immersion Program
+
+Languages:
+  - name: English
+    proficiency: Professional
+  - name: Mandarin
+    proficiency: Native
