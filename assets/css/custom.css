@@ -1,3 +1,17 @@
+/* Languages: two readable text rows without percentage charts. */
+.resume-language-rows {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.resume-language-rows p {
+  margin: 0;
+}
+
+.resume-language-rows p + p {
+  margin-top: 0.5rem;
+}
+
 /* Resume skills: stack categories and present each skill as a readable row. */
 .resume-skills-rows .grid {
   grid-template-columns: minmax(0, 1fr) !important;

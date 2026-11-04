@@ -1,0 +1,17 @@
+{{/* Render language proficiency as plain text rather than percentage charts. */}}
+{{ $content := .wcBlock.content }}
+{{ $profile := partial "functions/get_author_profile" ($content.username | default "me") }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $content.title | markdownify | emojify }}
+  </div>
+
+  {{ with $content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+  <div class="resume-language-rows text-gray-900 dark:text-white">
+    {{ range $profile.languages }}
+      <p><strong>{{ .name }}</strong> — {{ .level }}</p>
+    {{ end }}
+  </div>
+</div>
